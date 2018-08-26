@@ -10,6 +10,7 @@
     <bean class="quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
     <bean class="quoters.PostProxyInvokerContextListener"/>
+    <bean class="quoters.DeprecationHandlerBeanFactoryPostProcessor"/>
 
     <bean id="terminatorQuoter" class="quoters.TerminatorQuoter">
         <property name="message" value="I'll be back"/>
