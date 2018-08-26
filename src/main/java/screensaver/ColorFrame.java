@@ -8,7 +8,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-//@Component
 public abstract class ColorFrame extends JFrame {
 
     public ColorFrame() {
